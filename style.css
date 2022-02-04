@@ -45,6 +45,17 @@ header {
 .navigations_link {
   display: inline-block;
   text-decoration: none;
+  /* margin-right: 30px; */
+
+}
+
+/* add margin for element <li> */
+.navigations_list li:last-child{
+  margin-right: 0;
+}
+
+.navigations_list li{
+  margin-right: 30px;
 
 }
 
