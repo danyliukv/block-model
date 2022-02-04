@@ -1,10 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* add root customs */
+:root {
+  --c-header: #2f281e;
+  --c-text: #544837;
+  --c-button: #ff9900;
+}
+
+/* add style for body */
+
+body {
+  background: #f2f2f2;
+}
+
+/* add style for header */
+
+header {
+  display: inline-block;
+  align-items: center;
+}
+
+
 .header {
-    margin-top: 20px;
-    padding: 0 25px;
+  margin-top: 20px;
+  padding: 0 25px;
+}
+
+/* add navigation */
+
+/* nav{
+
+} */
+
+.navigations_list {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navigations_link {
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+
+
+
+.container {
+  width: 100%;
+  max-width: 1125px;
+  margin: 0 auto;
 }
